@@ -22,7 +22,7 @@ function Main() {
         <div className="Main">
             {/*<img className={`MainImage ${isM1 ? "fadeIn" : "fadeOut"}`} src={MainImage} alt={"MainImage"}/>*/}
             {/*<img className={`MainImage ${!isM1 ? "fadeIn" : "fadeOut"}`} src={Main2Image} alt={"Main2Image"}/>*/}
-            <img className={"MainImage"} src={Main2Image} alt={"Main2Image"}/>
+            <img className={"MainImage"} src={MainImage} alt={"MainImage"}/>
             <div ref={mainTextRef} className="MainText animation">
                 <span className="Subtitle">자꾸 실패하는 르방 관리?</span>
                 <p className="Title">르방, 정답은 없지만<br/><span className="Highlight">오답</span>은 있다.</p>
